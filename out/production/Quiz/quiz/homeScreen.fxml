@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="501.0" prefWidth="683.0" style="-fx-background-color: white; -fx-background-radius: 32px; -fx-border-raduis: 32px;;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="quiz.homeScreenController">
+    <children>
+        <Button fx:id="btn_start" alignment="CENTER" layoutX="253.0" layoutY="280.0" onAction="#OnClickStartButton" prefHeight="109.0" prefWidth="201.0" style="-fx-background-color: blue; -fx-border-raduis: 32px; -fx-background-radius: 32px;" text="START" textFill="WHITE">
+         <font>
+            <Font name="Perpetua Titling MT Bold" size="30.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="225.0" layoutY="75.0" text="Easy Quiz">
+         <font>
+            <Font name="Segoe UI Semibold" size="45.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
